@@ -4,8 +4,6 @@ import fetch from "node-fetch"
 import axios from "axios"
 import * as util from 'util'
 import fs from "fs"
-import https from "https"
-import YoutubeClient from "./youtubeClient.js"
 const baseUrl="https://api.twitch.tv/"
 
 export default {

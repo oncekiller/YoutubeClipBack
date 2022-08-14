@@ -67,7 +67,7 @@ export default {
       })
       console.log("video downloaded")
       const videoFile = fs.createReadStream(`./src/assets/videos/clip_${clipId}.mp4`)
-      await youtubeClient.postVideo( videoFile , "title" , "tags" , "description" , "thumbnailUrl")
+      //await youtubeClient.postVideo( videoFile , "title" , "tags" , "description" , "thumbnailUrl")
       console.log("clip posted")
       await removeFile(`./src/assets/videos/clip_${clipId}.mp4`)
       console.log("file deleted")
